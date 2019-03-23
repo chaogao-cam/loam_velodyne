@@ -1,3 +1,6 @@
+# loam_velodyne with comments
+commented loam_velodyne code.
+
 # loam_velodyne
 
 This is a LOAM (Lidar Odometry and Mapping) ROS package for Velodyne VLP-16 3D laser scanner. This package is a simple modified copy of [loam_velodyne git repository](https://github.com/laboshinl/loam_velodyne) from **laboshinl**, which is again a modified copy of the original one release by [Ji Zhang](http://www.frc.ri.cmu.edu/~jizhang03/). His change on top of the original one is that he changed the scanRegistration.cpp to make it work with his dataset. I fixed a bug on laserOdometry.cpp to get rid of the matrix NaN error during L-M optimization step. Please cite Zhang et al.'s paper if this package is used. 
